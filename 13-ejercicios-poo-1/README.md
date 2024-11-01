@@ -1,33 +1,35 @@
 Universidad
 
- - estudiantes
- - profesores
- - cursos
- - ** secciones
+- estudiantes
+- profesores
+- cursos
+- \*\* secciones
 
 Persona
-  - nombre
-  - apellido
-  - email
-  - materias **
+
+- nombre
+- apellido
+- email
+- materias \*\*
 
   > Profesor (materias)
   > Estudiante (inscripciones)
 
-
 Materia (Curso)
-  - titulo
-  - código
-  - secciones[]
+
+- titulo
+- código
+- secciones[]
 
 Sección
-  - numero
-  - horario
-  - profesor
-  - estudiantes[]
+
+- numero
+- horario
+- profesor
+- estudiantes[]
 
 Inscripción
-  - trimestre
-  - secciones[]
-  - estudiante
 
+- trimestre
+- secciones[]
+- estudiante
